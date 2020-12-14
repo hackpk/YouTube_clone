@@ -1,0 +1,42 @@
+/** @format */
+
+.videoRow {
+	display: flex;
+	margin-bottom: 30px;
+	max-width: 700px;
+}
+
+.videoRow_logo {
+	object-fit: contain;
+	height: 126px;
+	width: 256px;
+}
+
+.videoRow_text {
+	margin-left: 14px;
+}
+
+.videoRow_info {
+	font-size: 12px;
+	color: #606060;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.videoRow_text > h3 {
+	font-size: medium;
+}
+
+.videoRow_num {
+	font-weight: bolder;
+	color: rgb(84, 82, 209);
+}
+
+.videoRow_subs {
+	background-color: lightgray;
+}
+
+.videoRow_desc {
+	font-size: 12px;
+	color: #606060;
+}
